@@ -1,0 +1,94 @@
+:root
+{
+    // Font style
+    --font-style-1:normal;
+    --font-style-1:italic;
+    --font-style-1:oblique;
+
+
+
+
+    // Font Size's
+    --font-size-1: 1rem;
+    --font-size-2: 1.5rem;
+    --font-size-3: 2rem;
+    --font-size-4: 2.5rem;
+    --font-size-5: 3rem;
+    --font-size-6: 3.5rem;
+    --font-size-7: 4rem;
+    --font-size-8: 4.5em;
+    --font-size-9: 0.9rem;
+
+    // Font Weights
+    --font-weight-1: 100;
+    --font-weight-2: 200;
+    --font-weight-3: 300;
+    --font-weight-4: 400;
+    --font-weight-5: 500;
+    --font-weight-6: 600;
+    --font-weight-7: 700;
+    --font-weight-8: 800;
+    --font-weight-9: 900;
+
+    // Letter Spacing
+    --font-letterspacing-0: -.05em;
+    --font-letterspacing-1: .025em;
+    --font-letterspacing-2: .050em;
+    --font-letterspacing-3: .075em;
+    --font-letterspacing-4: .150em;
+    --font-letterspacing-5: .500em;
+    --font-letterspacing-6: .750em;
+    --font-letterspacing-7: 1em;
+
+    // Line Height
+    --font-lineheight-00: .95;
+    --font-lineheight-0: 1.1;
+    --font-lineheight-1: 1.25;
+    --font-lineheight-2: 1.375;
+    --font-lineheight-3: 1.5;
+    --font-lineheight-4: 1.75;
+    --font-lineheight-5: 2;
+
+    //  Color's
+    --blue:#1919e6;
+    --red: #d32752;
+    --yellow: #ffff00;
+    --green:#00ff00;
+    --orange:#ffa500;
+    --purple: #800080;
+    --gray: #808080;
+    --black: black;
+    --white: white;
+    --primary:#326dee;
+
+
+    // Margin-y
+    --margin-y-1: 1rem 0;
+    --margin-y-2: 1.5rem 0;
+    --margin-y-3: 2rem 0;
+    --margin-y-4: 2.5rem 0;
+    --margin-y-5: 3rem 0;
+    --margin-y-6: 3.5rem 0;
+
+    // Padding
+    --padding-1: 1%;
+    --padding-2: 2%;
+    --padding-3: 3%;
+    --padding-4: 4%;
+    --padding-5: 5%;
+    --padding-6: 6%;
+    --padding-7: 7%;
+    --padding-8: 8%;
+
+    // Padding-Top
+    --padding-top-1: 5%;
+    --padding-top-2: 10%;
+    --padding-top-3: 15%;
+
+    // Padding-Bottom
+    --Padding-bottom-1: 15%;
+
+    // Hover
+
+    --Hover-rotate-1: rotate(10deg);
+}

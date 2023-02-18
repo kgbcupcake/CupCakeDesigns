@@ -1,0 +1,72 @@
+.main-nav {
+  overflow: hidden;
+  padding: 14px 20px;
+  text-align: center;
+}
+.main-nav a {
+  color: rgb(166, 17, 172);
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+.main-nav a:hover {
+  color: #ff9494;
+  border-radius: 20px;
+}
+.main-nav a:active {
+  opacity: 0.7;
+}
+
+main h1 {
+  text-align: center;
+}
+main div p {
+  color: rgb(166, 17, 172);
+}
+
+.download-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section div .download-btn {
+  display: flex;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  padding: 16px 25px;
+  align-items: center;
+  background-color: #4a98f7;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+section div .download-btn:hover {
+  background-color: #2382f6;
+}
+section div .download-btn .icon {
+  color: var(--purple);
+  font-size: 2rem;
+}
+section div .download-btn .text {
+  font-size: var(--font-size-2);
+  padding-left: 10px;
+}
+
+.download-btn.timer {
+  color: black;
+  background: none;
+  box-shadow: none;
+  font-size: 1.6rem;
+  pointer-events: none;
+  transition: none;
+}
+.download-btn.timer b {
+  color: #4a98f7;
+  padding: 0 8px;
+}

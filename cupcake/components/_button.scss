@@ -1,0 +1,98 @@
+@mixin btn($bg-color: #e2e2e2) 
+{
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: $base-padding $base-padding * 2;
+    border-radius: $base-border-radius;
+    background-color: $bg-color;
+
+  
+}
+
+
+
+.btn
+{
+    @include btn;
+}
+
+@each $key, $val in $colors
+{
+
+    .btn-#{$key}
+    {
+        @include btn($val);
+        &:hover
+        {
+            background-color: lighten($val, 5);
+        }
+    }
+
+    .btn-outlined-#{$key}
+    {
+        @include btn(#fff);
+        border: $base-border-thickness solid $val;
+        &:hover
+        {
+            background-color: $val;
+        }
+    }
+
+.btn-complement-#{$key}
+{
+    @include btn($val);
+    color: light-comp($val);
+    &:hover
+    {
+        color:$val;
+        background-color: light-comp($val);
+    }
+}
+
+}
+
+@mixin stretch-btn($bg-color: #e2e2e2) 
+{
+    border-radius: 25px;
+    color: white;
+    border:none;
+    cursor: pointer;
+    margin-right: .3%;
+    margin-left: 1%;
+    margin-top: 1%;
+    padding-bottom: .5%;
+    padding-top:.5%;
+    padding-left: 1%;
+    padding-right:1%;
+    transition: opacity 0.15s;
+}
+
+
+
+.stretch-btn
+{
+    @include btn;
+}
+
+
+
+
+@each $key, $val in $colors
+{
+
+    .stretch-btn-#{$key}
+    {
+        @include stretch-btn($val);
+        &:hover
+        {
+            background-color: lighten($val, 5);
+            padding-left: 25px;
+            padding-right: 25px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    }
+}
+

@@ -1,0 +1,18 @@
+@font-face
+{
+    src: url(/fonts/Creepster-Regular.ttf);
+    font-family:Creepster ;
+}
+@font-face {
+    font-family:CHERL;
+    src: url(/fonts/CHERL.TTF);
+}
+@font-face {
+    font-family:IndieFlower ;
+    src: url(/fonts/IndieFlower.ttf);
+}
+
+@font-face {
+    font-family:Nosifer;
+    src: url(/fonts/Nosifer-Regular.ttf);
+}
